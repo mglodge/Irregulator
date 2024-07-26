@@ -466,7 +466,7 @@ int main()
     printf("\n\n\t Vertex C: \n\t\t\t %d \n\t\t\t %d \n\t\t\t %d", vertex_C[0], vertex_C[1], vertex_C[2]);
 
     /* find the triangular plane joining these three vertices */
-    get_triangular_plane(vertex_A, vertex_B, vertex_C, &normal, &k_coeff);
+    get_triangular_plane(vertex_A, vertex_B, vertex_C, normal, &k_coeff);
 
     printf("\n\n\t Normal: \n\t\t\t %f \n\t\t\t %f \n\t\t\t %f \n\t\t\t %f (k coefficient)", normal[0], normal[1], normal[2], k_coeff);
 
@@ -509,7 +509,7 @@ int main()
     printf("\n\n\t Vertex C: \n\t\t\t %d \n\t\t\t %d \n\t\t\t %d", vertex_C[0], vertex_C[1], vertex_C[2]);
 
     /* find the triangular plane joining these three vertices */
-    get_triangular_plane(vertex_A, vertex_B, vertex_C, &normal, &k_coeff);
+    get_triangular_plane(vertex_A, vertex_B, vertex_C, normal, &k_coeff);
 
     printf("\n\n\t Normal: \n\t\t\t %f \n\t\t\t %f \n\t\t\t %f \n\t\t\t %f (k coefficient)", normal[0], normal[1], normal[2], k_coeff);
 
